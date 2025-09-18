@@ -21,7 +21,7 @@ export const Hourlyforecast = () =>{
         
             <section className='flex flex-col items-start gap-[20px]  py-[40px] rounded-2xl bg-[var(--Neutral-800)]'>
 
-                <div className='flex flex-row  gap-[30px]'>  
+                <div className='flex flex-row items-center pl-[10px]  gap-[30px]'>  
 
                     <h1 className='text-2xl font-bold'>Hourly forecast</h1>
 
@@ -56,13 +56,13 @@ export const Hourlyforecast = () =>{
 
                 </div>
 
-                <div className='flex flex-col items-start '>
+                <div className='flex flex-col items-start gap-[30px] '>
 
-                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[360px] h-[80px]'>
+                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[350px] h-[60px] ml-[6px]'>
 
                         <div className=' flex flex-row items-center '>
 
-                            <img src={overcastimg} alt="" className='w-[90px] h-[90px]' />
+                            <img src={overcastimg} alt="" className='w-[50px] h-[50px]' />
 
                             <h1>3 PM</h1>
 
@@ -74,11 +74,11 @@ export const Hourlyforecast = () =>{
                         
                     </div>
 
-                    <div>
+                    <div  className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[350px] h-[60px] ml-[6px]'>
 
-                        <div>
+                        <div className=' flex flex-row items-center '>
 
-                            <img src={partlycloudimg} alt="" className='w-[90px] h-[90px]' />
+                            <img src={partlycloudimg} alt=""  className='w-[50px] h-[50px]' />
 
                             <h1>4 PM</h1>
 
@@ -88,11 +88,11 @@ export const Hourlyforecast = () =>{
 
                     </div>
 
-                    <div>
+                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[350px] h-[60px] ml-[6px]'>
 
-                        <div>
+                        <div  className=' flex flex-row items-center '>
 
-                            <img src={sunnyimg} alt="" className='w-[90px] h-[90px]' />
+                            <img src={sunnyimg} alt="" className='w-[50px] h-[50px]' />
 
                             <h1>5 PM</h1>
 
@@ -103,11 +103,11 @@ export const Hourlyforecast = () =>{
                     </div>
 
 
-                    <div>
+                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[350px] h-[60px] ml-[6px]'>
 
-                        <div>
+                        <div  className=' flex flex-row items-center '>
 
-                            <img src={overcastimg} alt="" className='w-[90px] h-[90px]' />
+                            <img src={overcastimg} alt="" className='w-[50px] h-[50px]' />
 
                             <h1>6 PM</h1>
 
@@ -118,11 +118,11 @@ export const Hourlyforecast = () =>{
                     </div>
 
 
-                    <div>
+                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[350px] h-[60px] ml-[6px]'>
 
-                        <div>
+                        <div  className=' flex flex-row items-center '>
 
-                            <img src={overcastimg} alt="" className='w-[90px] h-[90px]' />
+                            <img src={overcastimg} alt="" className='w-[50px] h-[50px]' />
 
                             <h1> 7 PM</h1>
 
@@ -133,11 +133,11 @@ export const Hourlyforecast = () =>{
                     </div>
 
 
-                    <div>
+                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[350px] h-[60px] ml-[6px]'>
 
-                        <div>
+                        <div  className=' flex flex-row items-center '>
 
-                            <img src={fogimg} alt="" className='w-[90px] h-[90px]' />
+                            <img src={fogimg} alt="" className='w-[50px] h-[50px]'  />
 
                             <h1>8 PM</h1>
 
@@ -148,11 +148,11 @@ export const Hourlyforecast = () =>{
                     </div>
 
 
-                    <div>
+                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[350px] h-[60px] ml-[6px]'>
 
-                        <div>
+                        <div   className=' flex flex-row items-center '>
 
-                            <img src={snowimg} alt="" className='w-[90px] h-[90px]' />
+                            <img src={snowimg} alt="" className='w-[50px] h-[50px]'  />
 
                             <h1>9 PM</h1>
 
@@ -164,11 +164,11 @@ export const Hourlyforecast = () =>{
                     </div>
 
 
-                    <div>
+                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[350px] h-[60px] ml-[6px]'>
 
-                        <div>
+                        <div  className=' flex flex-row items-center '>
 
-                            <img src={overcastimg} alt="" className='w-[90px] h-[90px]' />
+                            <img src={overcastimg} alt="" className='w-[50px] h-[50px]'  />
 
                             <h1>10 PM</h1>
 
