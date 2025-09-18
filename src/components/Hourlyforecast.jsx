@@ -13,32 +13,20 @@ import overcastimg from '../resources/images/icon-overcast.webp'
 export const Hourlyforecast = () =>{
 
     
-    const [day, setDay] = useState("Tuesday");
-
-    const daysOfWeek = [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday",
-    ];
 
     return(
 
 
         <>
         
-            <section>
+            <section className='flex flex-col items-start gap-[20px]  py-[40px] rounded-2xl bg-[var(--Neutral-800)]'>
 
-                <div>
+                <div className='flex flex-row  gap-[30px]'>  
 
-                   
+                    <h1 className='text-2xl font-bold'>Hourly forecast</h1>
 
-                    <h1>Hourly forecast</h1>
+                    <div className='flex flex-row items-center bg-[var(--Neutral-600)] rounded-2xl px-[20px] py-[15px] gap-[20px]'>
 
-                    <div>
                         <h1>Tuesday</h1>
 
                         <img src={dropdownimg} alt="" />
@@ -68,19 +56,21 @@ export const Hourlyforecast = () =>{
 
                 </div>
 
-                <div>
+                <div className='flex flex-col items-start '>
 
-                    <div>
+                    <div className='bg-gray-600 flex flex-row items-center-safe gap-[170px] rounded-2xl shadow-2xl w-[360px] h-[80px]'>
 
-                        <div>
+                        <div className=' flex flex-row items-center '>
 
-                            <img src={overcastimg} alt="" />
+                            <img src={overcastimg} alt="" className='w-[90px] h-[90px]' />
 
                             <h1>3 PM</h1>
 
                         </div>
 
                         <h1>68°</h1>
+
+                        
                         
                     </div>
 
@@ -88,7 +78,7 @@ export const Hourlyforecast = () =>{
 
                         <div>
 
-                            <img src={partlycloudimg} alt="" />
+                            <img src={partlycloudimg} alt="" className='w-[90px] h-[90px]' />
 
                             <h1>4 PM</h1>
 
@@ -102,7 +92,7 @@ export const Hourlyforecast = () =>{
 
                         <div>
 
-                            <img src={sunnyimg} alt="" />
+                            <img src={sunnyimg} alt="" className='w-[90px] h-[90px]' />
 
                             <h1>5 PM</h1>
 
@@ -117,7 +107,7 @@ export const Hourlyforecast = () =>{
 
                         <div>
 
-                            <img src={overcastimg} alt="" />
+                            <img src={overcastimg} alt="" className='w-[90px] h-[90px]' />
 
                             <h1>6 PM</h1>
 
@@ -132,7 +122,7 @@ export const Hourlyforecast = () =>{
 
                         <div>
 
-                            <img src={overcastimg} alt="" />
+                            <img src={overcastimg} alt="" className='w-[90px] h-[90px]' />
 
                             <h1> 7 PM</h1>
 
@@ -147,7 +137,7 @@ export const Hourlyforecast = () =>{
 
                         <div>
 
-                            <img src={fogimg} alt="" />
+                            <img src={fogimg} alt="" className='w-[90px] h-[90px]' />
 
                             <h1>8 PM</h1>
 
@@ -162,7 +152,7 @@ export const Hourlyforecast = () =>{
 
                         <div>
 
-                            <img src={snowimg} alt="" />
+                            <img src={snowimg} alt="" className='w-[90px] h-[90px]' />
 
                             <h1>9 PM</h1>
 
@@ -178,7 +168,7 @@ export const Hourlyforecast = () =>{
 
                         <div>
 
-                            <img src={overcastimg} alt="" />
+                            <img src={overcastimg} alt="" className='w-[90px] h-[90px]' />
 
                             <h1>10 PM</h1>
 
